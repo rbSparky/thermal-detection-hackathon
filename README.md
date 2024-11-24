@@ -20,7 +20,7 @@ Steps for testing the system:
 - Connected to Wi-Fi (with a MAC address)
 - Connected to MQTT Broker
 - Subscribed to topic: save-the-stray/INDCYC
-4. Once the simulation is set up successfully and running, go to the website hosting the application.
+4. Once the simulation is set up successfully and running, go to the website hosting the application (http://167.71.234.184:8501/).
 5. Upload an IR video for testing. The application then detects animals through an ML model in the backend, displaying logs as the animal is detected or not detected.
 6. When an animal is detected, the server sends an MQTT message "on" which lights up the LED, plays sound from the buzzer and displays a message to alert drivers. When an animal is no longer detected, it deactivates the actuators and clears the OLED screen.
 
