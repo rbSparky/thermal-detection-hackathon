@@ -14,9 +14,10 @@ oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 
 
 # MQTT Broker details
-MQTT_BROKER = "test.mosquitto.org"  # Replace with your ngrok public address
-MQTT_PORT = 1883              # Replace with your ngrok port
-MQTT_TOPIC = "testicals/topic"       # Topic to subscribe to
+MQTT_BROKER = "test.mosquitto.org"  # Publicly available MQTT Broker
+MQTT_PORT = 1883    # MQTT Broker port
+MQTT_TOPIC = "save-the-stray/INDCYC"    # Topic to subscribe to
+
 
 # Wi-Fi credentials
 WIFI_SSID = "Wokwi-GUEST"
