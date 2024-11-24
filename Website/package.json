@@ -1,0 +1,20 @@
+{
+  "name": "animal_detection_and_warning_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quick-fox-03/animal-detection-and-warning-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quick-fox-03/animal-detection-and-warning-system/issues"
+  },
+  "homepage": "https://github.com/quick-fox-03/animal-detection-and-warning-system#readme"
+}
