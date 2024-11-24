@@ -64,6 +64,7 @@ Once the app starts, you can access it on your browser:
 - **Local URL**: `http://localhost:8501`
 - **Network URL**: `http://<your-server-ip>:8501`
 
+The working application is hosted on the following URL - http://167.71.234.184:8501/
 ## How It Works
 
 1. **Video Input**: Users upload a video to the Streamlit app.
